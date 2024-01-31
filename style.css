@@ -82,14 +82,18 @@ html {
 }
 .definicoes-car {
     width: 40%;
+   
 }
+
 .title{
     display: flex;
-    flex-direction: column;
-    
+    align-items: center;
+    justify-content: space-evenly;
+   
 }
+
 .title img{
-    width: 10%;
+    width: 15%;
 }
 .sub-title {
     color: #313630;
@@ -101,10 +105,9 @@ html {
 
 .description {
     color: #383c3e;
-    font-size: 0.9rem;
+    font-size: 1.7rem;
     font-weight: 500;
-
-    margin-bottom: 2.75rem;
+    margin: 5rem 5rem ;
 }
 
 .colors {
@@ -112,7 +115,7 @@ html {
 
     flex-direction: column;
 
-    margin-bottom: 2.75rem;
+    margin:5rem ;
 }
 
 .colors h3 {
