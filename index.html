@@ -16,6 +16,13 @@
 </head>
 
 <body>
+
+    <div id="background-video">
+        <video src="./assets/audi.mp4" autoplay muted loop></video>
+        <div class="mask-video"></div>
+    </div>
+
+
     <div id="container">
         <header class="header">
             <h1>Ved Car Dreams</h1>
@@ -29,9 +36,9 @@
             </section>
             <section class="definicoes-car">
                 <h2 class="title">
-                    <img onclick="changeInfo('audi')" class="carBrend selected "  data-marca="audi" src="./assets/logo-audi.svg" alt="logo-audi">
-                    <img onclick="changeInfo('ferrari')" class="carBrend selected" data-marca="ferrari" src="./assets/Ferrari.svg" alt="logo-ferrari">
-                    <img onclick="changeInfo('tesla')" class="carBrend selected" data-marca="tesla" src="./assets/TESLA LOGO.svg" alt="logo-tesla">
+                    <img onclick="changeInfo('audi')" src="./assets/svgexport-19.svg" alt="logo-audi">
+                    <img onclick="changeInfo('ferrari')" src="./assets/Ferrari.svg" alt="logo-ferrari">
+                    <img onclick="changeInfo('tesla')" src="./assets/svgexport-5.svg" alt="logo-tesla">
                 </h2>
                 <div class="description">
                     <h3 class="sub-title">
@@ -63,6 +70,9 @@
                         </li>
                         <li>
                             <span class="az" style="background: #0000ff;"></span>
+                        </li>
+                        <li>
+                            <span class="gy" style="background: #008cff;"></span>
                         </li>
                     </ul>
                 </section>
